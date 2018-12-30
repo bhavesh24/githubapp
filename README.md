@@ -154,6 +154,7 @@ Controller : FollowersViewController.swift
 
 
 Share Functionality:
+
 Can share user details to other apps Example: Print
 
 Controller : UIActivityViewController
