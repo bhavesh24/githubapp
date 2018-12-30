@@ -1,0 +1,6 @@
+framework module Pods_TestYoozoo {
+  umbrella header "Pods-TestYoozoo-umbrella.h"
+
+  export *
+  module * { export * }
+}

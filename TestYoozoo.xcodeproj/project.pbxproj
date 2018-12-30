@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A4B4B30A9D60E638022B334 /* Pods_TestYoozoo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E56D41B818B98E66694F100 /* Pods_TestYoozoo.framework */; };
+		A6A7F7A30C4691942333E306 /* Pods_TestYoozooTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DF6CED8AC5A34E551859270 /* Pods_TestYoozooTests.framework */; };
 		CE94D75D21D7C0C400CB2281 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE94D75C21D7C0C400CB2281 /* AppDelegate.swift */; };
 		CE94D75F21D7C0C400CB2281 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE94D75E21D7C0C400CB2281 /* ViewController.swift */; };
 		CE94D76221D7C0C400CB2281 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE94D76021D7C0C400CB2281 /* Main.storyboard */; };
@@ -14,6 +16,35 @@
 		CE94D76721D7C0C600CB2281 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE94D76621D7C0C600CB2281 /* Assets.xcassets */; };
 		CE94D76A21D7C0C600CB2281 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE94D76821D7C0C600CB2281 /* LaunchScreen.storyboard */; };
 		CE94D77521D7C0C700CB2281 /* TestYoozooTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE94D77421D7C0C700CB2281 /* TestYoozooTests.swift */; };
+		CE94D78121D7C88800CB2281 /* UsersAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE94D78021D7C88800CB2281 /* UsersAPI.swift */; };
+		CE94D78421D7CF0700CB2281 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE94D78321D7CF0700CB2281 /* Utils.swift */; };
+		CE94D79B21D7E1E700CB2281 /* Lato-HeavyItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE94D78721D7E1E700CB2281 /* Lato-HeavyItalic.ttf */; };
+		CE94D79C21D7E1E700CB2281 /* Lato-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE94D78821D7E1E700CB2281 /* Lato-Italic.ttf */; };
+		CE94D79D21D7E1E700CB2281 /* Lato-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE94D78921D7E1E700CB2281 /* Lato-LightItalic.ttf */; };
+		CE94D79E21D7E1E700CB2281 /* Lato-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE94D78A21D7E1E700CB2281 /* Lato-Thin.ttf */; };
+		CE94D79F21D7E1E700CB2281 /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE94D78B21D7E1E700CB2281 /* Lato-Bold.ttf */; };
+		CE94D7A021D7E1E700CB2281 /* Lato-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE94D78C21D7E1E700CB2281 /* Lato-Black.ttf */; };
+		CE94D7A121D7E1E700CB2281 /* Lato-SemiboldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE94D78D21D7E1E700CB2281 /* Lato-SemiboldItalic.ttf */; };
+		CE94D7A221D7E1E700CB2281 /* Lato-HairlineItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE94D78E21D7E1E700CB2281 /* Lato-HairlineItalic.ttf */; };
+		CE94D7A321D7E1E700CB2281 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE94D78F21D7E1E700CB2281 /* Lato-Regular.ttf */; };
+		CE94D7A421D7E1E700CB2281 /* Lato-Hairline.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE94D79021D7E1E700CB2281 /* Lato-Hairline.ttf */; };
+		CE94D7A521D7E1E700CB2281 /* Lato-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE94D79121D7E1E700CB2281 /* Lato-BlackItalic.ttf */; };
+		CE94D7A621D7E1E700CB2281 /* Lato-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE94D79221D7E1E700CB2281 /* Lato-Semibold.ttf */; };
+		CE94D7A721D7E1E700CB2281 /* Lato-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE94D79321D7E1E700CB2281 /* Lato-MediumItalic.ttf */; };
+		CE94D7A821D7E1E700CB2281 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE94D79421D7E1E700CB2281 /* OFL.txt */; };
+		CE94D7A921D7E1E700CB2281 /* Lato-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE94D79521D7E1E700CB2281 /* Lato-Heavy.ttf */; };
+		CE94D7AA21D7E1E700CB2281 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE94D79621D7E1E700CB2281 /* README.txt */; };
+		CE94D7AB21D7E1E700CB2281 /* Lato-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE94D79721D7E1E700CB2281 /* Lato-BoldItalic.ttf */; };
+		CE94D7AC21D7E1E700CB2281 /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE94D79821D7E1E700CB2281 /* Lato-Light.ttf */; };
+		CE94D7AD21D7E1E700CB2281 /* Lato-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE94D79921D7E1E700CB2281 /* Lato-Medium.ttf */; };
+		CE94D7AE21D7E1E700CB2281 /* Lato-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE94D79A21D7E1E700CB2281 /* Lato-ThinItalic.ttf */; };
+		CE94D7B121D7F51700CB2281 /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE94D7B021D7F51700CB2281 /* UserTableViewCell.swift */; };
+		CE94D7B321D7FD7100CB2281 /* TestYoozooDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE94D7B221D7FD7100CB2281 /* TestYoozooDelegate.swift */; };
+		CE94D7BA21D8981200CB2281 /* UserDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE94D7B921D8981200CB2281 /* UserDetails.swift */; };
+		CE94D7BD21D8983400CB2281 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE94D7BB21D8983400CB2281 /* UserInfo.swift */; };
+		CE94D7BE21D8983400CB2281 /* Items.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE94D7BC21D8983400CB2281 /* Items.swift */; };
+		CE94D7C021D898A400CB2281 /* UserDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE94D7BF21D898A400CB2281 /* UserDetailsViewController.swift */; };
+		CE94D7C221D8BA7C00CB2281 /* FollowersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE94D7C121D8BA7C00CB2281 /* FollowersViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +58,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0EA9EF3B3E0F77D427181026 /* Pods-TestYoozooTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestYoozooTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestYoozooTests/Pods-TestYoozooTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5E56D41B818B98E66694F100 /* Pods_TestYoozoo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestYoozoo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6554FB58665F7390BB477037 /* Pods-TestYoozooTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestYoozooTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestYoozooTests/Pods-TestYoozooTests.release.xcconfig"; sourceTree = "<group>"; };
+		76939DF292FDE76182801E30 /* Pods-TestYoozoo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestYoozoo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestYoozoo/Pods-TestYoozoo.debug.xcconfig"; sourceTree = "<group>"; };
+		9DF6CED8AC5A34E551859270 /* Pods_TestYoozooTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestYoozooTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE94D75921D7C0C400CB2281 /* TestYoozoo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestYoozoo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE94D75C21D7C0C400CB2281 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE94D75E21D7C0C400CB2281 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -38,6 +74,36 @@
 		CE94D77021D7C0C700CB2281 /* TestYoozooTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestYoozooTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE94D77421D7C0C700CB2281 /* TestYoozooTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestYoozooTests.swift; sourceTree = "<group>"; };
 		CE94D77621D7C0C700CB2281 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE94D78021D7C88800CB2281 /* UsersAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersAPI.swift; sourceTree = "<group>"; };
+		CE94D78321D7CF0700CB2281 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		CE94D78721D7E1E700CB2281 /* Lato-HeavyItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-HeavyItalic.ttf"; sourceTree = "<group>"; };
+		CE94D78821D7E1E700CB2281 /* Lato-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Italic.ttf"; sourceTree = "<group>"; };
+		CE94D78921D7E1E700CB2281 /* Lato-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-LightItalic.ttf"; sourceTree = "<group>"; };
+		CE94D78A21D7E1E700CB2281 /* Lato-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Thin.ttf"; sourceTree = "<group>"; };
+		CE94D78B21D7E1E700CB2281 /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
+		CE94D78C21D7E1E700CB2281 /* Lato-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Black.ttf"; sourceTree = "<group>"; };
+		CE94D78D21D7E1E700CB2281 /* Lato-SemiboldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-SemiboldItalic.ttf"; sourceTree = "<group>"; };
+		CE94D78E21D7E1E700CB2281 /* Lato-HairlineItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-HairlineItalic.ttf"; sourceTree = "<group>"; };
+		CE94D78F21D7E1E700CB2281 /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
+		CE94D79021D7E1E700CB2281 /* Lato-Hairline.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Hairline.ttf"; sourceTree = "<group>"; };
+		CE94D79121D7E1E700CB2281 /* Lato-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-BlackItalic.ttf"; sourceTree = "<group>"; };
+		CE94D79221D7E1E700CB2281 /* Lato-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Semibold.ttf"; sourceTree = "<group>"; };
+		CE94D79321D7E1E700CB2281 /* Lato-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-MediumItalic.ttf"; sourceTree = "<group>"; };
+		CE94D79421D7E1E700CB2281 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		CE94D79521D7E1E700CB2281 /* Lato-Heavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Heavy.ttf"; sourceTree = "<group>"; };
+		CE94D79621D7E1E700CB2281 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		CE94D79721D7E1E700CB2281 /* Lato-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-BoldItalic.ttf"; sourceTree = "<group>"; };
+		CE94D79821D7E1E700CB2281 /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Light.ttf"; sourceTree = "<group>"; };
+		CE94D79921D7E1E700CB2281 /* Lato-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Medium.ttf"; sourceTree = "<group>"; };
+		CE94D79A21D7E1E700CB2281 /* Lato-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-ThinItalic.ttf"; sourceTree = "<group>"; };
+		CE94D7B021D7F51700CB2281 /* UserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
+		CE94D7B221D7FD7100CB2281 /* TestYoozooDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestYoozooDelegate.swift; sourceTree = "<group>"; };
+		CE94D7B921D8981200CB2281 /* UserDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDetails.swift; sourceTree = "<group>"; };
+		CE94D7BB21D8983400CB2281 /* UserInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		CE94D7BC21D8983400CB2281 /* Items.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Items.swift; sourceTree = "<group>"; };
+		CE94D7BF21D898A400CB2281 /* UserDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsViewController.swift; sourceTree = "<group>"; };
+		CE94D7C121D8BA7C00CB2281 /* FollowersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowersViewController.swift; sourceTree = "<group>"; };
+		D19D3E58C3A916A14864B1C5 /* Pods-TestYoozoo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestYoozoo.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestYoozoo/Pods-TestYoozoo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +111,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A4B4B30A9D60E638022B334 /* Pods_TestYoozoo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,18 +119,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6A7F7A30C4691942333E306 /* Pods_TestYoozooTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E808C097991C55FF15C1827 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				76939DF292FDE76182801E30 /* Pods-TestYoozoo.debug.xcconfig */,
+				D19D3E58C3A916A14864B1C5 /* Pods-TestYoozoo.release.xcconfig */,
+				0EA9EF3B3E0F77D427181026 /* Pods-TestYoozooTests.debug.xcconfig */,
+				6554FB58665F7390BB477037 /* Pods-TestYoozooTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5E6C60FEF0B7EAF28E7991B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E56D41B818B98E66694F100 /* Pods_TestYoozoo.framework */,
+				9DF6CED8AC5A34E551859270 /* Pods_TestYoozooTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CE94D75021D7C0C400CB2281 = {
 			isa = PBXGroup;
 			children = (
 				CE94D75B21D7C0C400CB2281 /* TestYoozoo */,
 				CE94D77321D7C0C700CB2281 /* TestYoozooTests */,
 				CE94D75A21D7C0C400CB2281 /* Products */,
+				0E808C097991C55FF15C1827 /* Pods */,
+				5E6C60FEF0B7EAF28E7991B4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,6 +169,11 @@
 		CE94D75B21D7C0C400CB2281 /* TestYoozoo */ = {
 			isa = PBXGroup;
 			children = (
+				CE94D7B421D7FDFE00CB2281 /* Models */,
+				CE94D7AF21D7F4E600CB2281 /* Views */,
+				CE94D78521D7E1BD00CB2281 /* Fonts */,
+				CE94D78221D7C94000CB2281 /* Utilities */,
+				CE94D77F21D7C13700CB2281 /* API */,
 				CE94D75C21D7C0C400CB2281 /* AppDelegate.swift */,
 				CE94D75E21D7C0C400CB2281 /* ViewController.swift */,
 				CE94D76021D7C0C400CB2281 /* Main.storyboard */,
@@ -86,6 +181,8 @@
 				CE94D76821D7C0C600CB2281 /* LaunchScreen.storyboard */,
 				CE94D76B21D7C0C600CB2281 /* Info.plist */,
 				CE94D76321D7C0C400CB2281 /* TestYoozoo.xcdatamodeld */,
+				CE94D7BF21D898A400CB2281 /* UserDetailsViewController.swift */,
+				CE94D7C121D8BA7C00CB2281 /* FollowersViewController.swift */,
 			);
 			path = TestYoozoo;
 			sourceTree = "<group>";
@@ -99,6 +196,78 @@
 			path = TestYoozooTests;
 			sourceTree = "<group>";
 		};
+		CE94D77F21D7C13700CB2281 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				CE94D78021D7C88800CB2281 /* UsersAPI.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		CE94D78221D7C94000CB2281 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				CE94D7B221D7FD7100CB2281 /* TestYoozooDelegate.swift */,
+				CE94D78321D7CF0700CB2281 /* Utils.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		CE94D78521D7E1BD00CB2281 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				CE94D78621D7E1E700CB2281 /* Lato2OFL */,
+			);
+			name = Fonts;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		CE94D78621D7E1E700CB2281 /* Lato2OFL */ = {
+			isa = PBXGroup;
+			children = (
+				CE94D78721D7E1E700CB2281 /* Lato-HeavyItalic.ttf */,
+				CE94D78821D7E1E700CB2281 /* Lato-Italic.ttf */,
+				CE94D78921D7E1E700CB2281 /* Lato-LightItalic.ttf */,
+				CE94D78A21D7E1E700CB2281 /* Lato-Thin.ttf */,
+				CE94D78B21D7E1E700CB2281 /* Lato-Bold.ttf */,
+				CE94D78C21D7E1E700CB2281 /* Lato-Black.ttf */,
+				CE94D78D21D7E1E700CB2281 /* Lato-SemiboldItalic.ttf */,
+				CE94D78E21D7E1E700CB2281 /* Lato-HairlineItalic.ttf */,
+				CE94D78F21D7E1E700CB2281 /* Lato-Regular.ttf */,
+				CE94D79021D7E1E700CB2281 /* Lato-Hairline.ttf */,
+				CE94D79121D7E1E700CB2281 /* Lato-BlackItalic.ttf */,
+				CE94D79221D7E1E700CB2281 /* Lato-Semibold.ttf */,
+				CE94D79321D7E1E700CB2281 /* Lato-MediumItalic.ttf */,
+				CE94D79421D7E1E700CB2281 /* OFL.txt */,
+				CE94D79521D7E1E700CB2281 /* Lato-Heavy.ttf */,
+				CE94D79621D7E1E700CB2281 /* README.txt */,
+				CE94D79721D7E1E700CB2281 /* Lato-BoldItalic.ttf */,
+				CE94D79821D7E1E700CB2281 /* Lato-Light.ttf */,
+				CE94D79921D7E1E700CB2281 /* Lato-Medium.ttf */,
+				CE94D79A21D7E1E700CB2281 /* Lato-ThinItalic.ttf */,
+			);
+			name = Lato2OFL;
+			path = TestYoozoo/fonts/Lato2OFL;
+			sourceTree = SOURCE_ROOT;
+		};
+		CE94D7AF21D7F4E600CB2281 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CE94D7B021D7F51700CB2281 /* UserTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CE94D7B421D7FDFE00CB2281 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CE94D7BC21D8983400CB2281 /* Items.swift */,
+				CE94D7BB21D8983400CB2281 /* UserInfo.swift */,
+				CE94D7B921D8981200CB2281 /* UserDetails.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +275,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE94D77921D7C0C700CB2281 /* Build configuration list for PBXNativeTarget "TestYoozoo" */;
 			buildPhases = (
+				B952273DE094A8EEE6EE9071 /* [CP] Check Pods Manifest.lock */,
 				CE94D75521D7C0C400CB2281 /* Sources */,
 				CE94D75621D7C0C400CB2281 /* Frameworks */,
 				CE94D75721D7C0C400CB2281 /* Resources */,
+				368509C7400691E41DA83C6C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,6 +294,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE94D77C21D7C0C700CB2281 /* Build configuration list for PBXNativeTarget "TestYoozooTests" */;
 			buildPhases = (
+				B91DDA97E3CD95E11066BAEE /* [CP] Check Pods Manifest.lock */,
 				CE94D76C21D7C0C700CB2281 /* Sources */,
 				CE94D76D21D7C0C700CB2281 /* Frameworks */,
 				CE94D76E21D7C0C700CB2281 /* Resources */,
@@ -180,9 +352,29 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE94D7A821D7E1E700CB2281 /* OFL.txt in Resources */,
+				CE94D7A421D7E1E700CB2281 /* Lato-Hairline.ttf in Resources */,
+				CE94D79C21D7E1E700CB2281 /* Lato-Italic.ttf in Resources */,
+				CE94D7AD21D7E1E700CB2281 /* Lato-Medium.ttf in Resources */,
+				CE94D7A521D7E1E700CB2281 /* Lato-BlackItalic.ttf in Resources */,
+				CE94D7A021D7E1E700CB2281 /* Lato-Black.ttf in Resources */,
+				CE94D79D21D7E1E700CB2281 /* Lato-LightItalic.ttf in Resources */,
+				CE94D7AC21D7E1E700CB2281 /* Lato-Light.ttf in Resources */,
+				CE94D7A921D7E1E700CB2281 /* Lato-Heavy.ttf in Resources */,
+				CE94D7A721D7E1E700CB2281 /* Lato-MediumItalic.ttf in Resources */,
+				CE94D7A621D7E1E700CB2281 /* Lato-Semibold.ttf in Resources */,
+				CE94D79E21D7E1E700CB2281 /* Lato-Thin.ttf in Resources */,
+				CE94D79B21D7E1E700CB2281 /* Lato-HeavyItalic.ttf in Resources */,
+				CE94D7A121D7E1E700CB2281 /* Lato-SemiboldItalic.ttf in Resources */,
+				CE94D7A221D7E1E700CB2281 /* Lato-HairlineItalic.ttf in Resources */,
+				CE94D7A321D7E1E700CB2281 /* Lato-Regular.ttf in Resources */,
 				CE94D76A21D7C0C600CB2281 /* LaunchScreen.storyboard in Resources */,
+				CE94D7AE21D7E1E700CB2281 /* Lato-ThinItalic.ttf in Resources */,
 				CE94D76721D7C0C600CB2281 /* Assets.xcassets in Resources */,
+				CE94D7AA21D7E1E700CB2281 /* README.txt in Resources */,
 				CE94D76221D7C0C400CB2281 /* Main.storyboard in Resources */,
+				CE94D79F21D7E1E700CB2281 /* Lato-Bold.ttf in Resources */,
+				CE94D7AB21D7E1E700CB2281 /* Lato-BoldItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,14 +387,100 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		368509C7400691E41DA83C6C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TestYoozoo/Pods-TestYoozoo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/libwebp/libwebp.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/libwebp.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestYoozoo/Pods-TestYoozoo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B91DDA97E3CD95E11066BAEE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestYoozooTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B952273DE094A8EEE6EE9071 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestYoozoo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CE94D75521D7C0C400CB2281 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE94D7C221D8BA7C00CB2281 /* FollowersViewController.swift in Sources */,
+				CE94D78421D7CF0700CB2281 /* Utils.swift in Sources */,
+				CE94D7B321D7FD7100CB2281 /* TestYoozooDelegate.swift in Sources */,
 				CE94D76521D7C0C400CB2281 /* TestYoozoo.xcdatamodeld in Sources */,
+				CE94D78121D7C88800CB2281 /* UsersAPI.swift in Sources */,
 				CE94D75F21D7C0C400CB2281 /* ViewController.swift in Sources */,
+				CE94D7B121D7F51700CB2281 /* UserTableViewCell.swift in Sources */,
+				CE94D7BE21D8983400CB2281 /* Items.swift in Sources */,
 				CE94D75D21D7C0C400CB2281 /* AppDelegate.swift in Sources */,
+				CE94D7C021D898A400CB2281 /* UserDetailsViewController.swift in Sources */,
+				CE94D7BD21D8983400CB2281 /* UserInfo.swift in Sources */,
+				CE94D7BA21D8981200CB2281 /* UserDetails.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,16 +640,21 @@
 		};
 		CE94D77A21D7C0C700CB2281 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76939DF292FDE76182801E30 /* Pods-TestYoozoo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M73583MAZN;
 				INFOPLIST_FILE = TestYoozoo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.bhavesh.TestYoozoo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -379,16 +662,21 @@
 		};
 		CE94D77B21D7C0C700CB2281 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D19D3E58C3A916A14864B1C5 /* Pods-TestYoozoo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M73583MAZN;
 				INFOPLIST_FILE = TestYoozoo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.bhavesh.TestYoozoo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -396,6 +684,7 @@
 		};
 		CE94D77D21D7C0C700CB2281 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EA9EF3B3E0F77D427181026 /* Pods-TestYoozooTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -416,6 +705,7 @@
 		};
 		CE94D77E21D7C0C700CB2281 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6554FB58665F7390BB477037 /* Pods-TestYoozooTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
