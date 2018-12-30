@@ -168,4 +168,4 @@ Controller : UIActivityViewController
 
 Setup:
 
-Download & clone from url https://github.com/bhavesh24/githubapp.git.Use your team under signing to run on any iOS 9.0+ devices(iPhone & iPad)
+Download .zip or clone from url https://github.com/bhavesh24/githubapp.git.Use your team under signing to run on any iOS 9.0+ devices(iPhone & iPad)
